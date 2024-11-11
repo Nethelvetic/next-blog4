@@ -1,11 +1,12 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: './',
-    basePath: '/mon-blog4',
+    basePath: '/next-blog4', // Le nom exact du dépôt GitHub
+    assetPrefix: '/next-blog4',
     images: {
       unoptimized: true,
     },
   };
   export default nextConfig;
+  
+  
   
